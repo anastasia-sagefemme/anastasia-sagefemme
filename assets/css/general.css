@@ -4,9 +4,11 @@
     --basic-color: #000000;
 }
 
-a, a:hover {
+a, a:hover, .intro {
+    font-family: "Mate";
     color: var(--secondarycolor);
     text-decoration: none;
+    font-size: 20px;
 }
 
 header {
@@ -15,6 +17,17 @@ header {
     background-size: contain;
     background-repeat: no-repeat;
     height: 300px;
+}
+
+nav a:hover {
+    color: var(--primarycolor);
+    font-variant: small-caps;
+}
+
+h1 {
+    font-family: "Mate";
+    color: var(--secondarycolor);
+    font-variant: small-caps;
 }
 
 .identité {
@@ -34,3 +47,21 @@ header {
                 1px 0 var(--secondarycolor), 
                 0 -1px var(--secondarycolor);
 }
+
+.rdv {
+    border: 2px var(--primarycolor) solid;
+    border-radius: 30px;
+    padding: 10px 0px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.rdv:hover {
+    background-color: var(--primarycolor);
+    border-color: var(--secondarycolor);
+    color: var(--secondarycolor)
+}
+
+
+
+    

@@ -21,10 +21,28 @@
     header {
         height: 600px;
     }
+    nav {
+        padding-top: 2.5%;
+    }
     .entete
     {
         margin-left: 10%;
-        margin-right: 10%;
+        margin-right: -20%;
+    }
+    h1, .intro {
+        margin-left: 12%
+    }
+    h1 {
+        margin-top: 150px;
+        font-weight: bold;
+        font-size: 50px;
+        text-shadow: -1px 0 var(--primarycolor), 
+        0 1px var(--primarycolor),
+        1px 0 var(--primarycolor), 
+        0 -1px var(--primarycolor);
+    }
+    .container-fluid {
+        max-width: 2000px;
     }
     .identité {
         padding-top: 10%;
@@ -33,6 +51,8 @@
         font-size: 25px;
         text-align: left;
     }
+    .navigation {
+        padding-left: 10%;
+    }   
 
-    
 }
