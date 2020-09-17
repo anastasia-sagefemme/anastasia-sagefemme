@@ -1,0 +1,36 @@
+:root {
+    --primarycolor: #9482b2;
+    --secondarycolor: #ffffff;
+    --basic-color: #000000;
+}
+
+a, a:hover {
+    color: var(--secondarycolor);
+    text-decoration: none;
+}
+
+header {
+    background-image: url(../pics/banniere2.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.identité {
+    font-family: "Greatvibes";
+    color: var(--secondarycolor);
+    text-shadow: -1px 0 var(--primarycolor), 
+                0 1px var(--primarycolor),
+                1px 0 var(--primarycolor), 
+                0 -1px var(--primarycolor);
+}
+
+.profession {
+    font-family: "Greatvibes";
+    color: var(--primarycolor);
+    text-shadow: -1px 0 var(--secondarycolor), 
+                0 1px var(--secondarycolor),
+                1px 0 var(--secondarycolor), 
+                0 -1px var(--secondarycolor);
+}

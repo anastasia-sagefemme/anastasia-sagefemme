@@ -1,0 +1,38 @@
+
+
+/*tablette*/
+@media (min-width: 768px) {
+    header {
+        height: 346px;
+    }
+    
+}
+
+/*laptop*/
+@media (min-width: 1024px) {
+    header {
+        height: 461px;
+    }
+
+}
+
+/*ecran*/
+@media (min-width: 1440px) {
+    header {
+        height: 600px;
+    }
+    .entete
+    {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .identité {
+        padding-top: 10%;
+    }
+    .identité, .profession {
+        font-size: 25px;
+        text-align: left;
+    }
+
+    
+}
