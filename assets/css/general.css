@@ -4,25 +4,21 @@
     --basic-color: #000000;
 }
 
-a, a:hover, .intro {
-    font-family: "Mate";
-    color: var(--secondarycolor);
-    text-decoration: none;
-    font-size: 20px;
-}
-
 header {
     background-image: url(../pics/banniere2.jpg);
     background-attachment: fixed;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 220px;
+    padding-top: 30px;
 }
 
-nav a:hover {
-    color: var(--primarycolor);
-    font-variant: small-caps;
-}
+a, a:hover, .intro {
+    font-family: "Mate";
+    color: var(--secondarycolor);
+    text-decoration: none;
+    font-size: 20px;
+}  
 
 h1 {
     font-family: "Mate";
@@ -37,6 +33,7 @@ h1 {
                 0 1px var(--primarycolor),
                 1px 0 var(--primarycolor), 
                 0 -1px var(--primarycolor);
+    padding-top: 12%;
 }
 
 .profession {
@@ -48,19 +45,42 @@ h1 {
                 0 -1px var(--secondarycolor);
 }
 
+.profession, .identité {
+    margin-left: 10%;
+}
+
 .rdv {
     border: 2px var(--primarycolor) solid;
     border-radius: 30px;
-    padding: 10px 0px;
-    margin-top: 50px;
+    padding: 5px 5px;
+    background-color: var(--primarycolor);
+    text-align: center;
+}  
+
+.mobile h1, .intro2 {
+    color: var(--primarycolor);
     text-align: center;
 }
 
-.rdv:hover {
-    background-color: var(--primarycolor);
-    border-color: var(--secondarycolor);
-    color: var(--secondarycolor)
+.mobile a, .mobile a:hover {
+    font-family: "Mate";
+    color: var(--secondarycolor);
+    text-decoration: none;
+    font-size: 15px;
 }
+
+.nav_mobile {
+    background-color: var(--primarycolor);
+    padding: 0px 0px;
+}
+
+.intro2 {
+    margin-bottom: 10px;
+}
+
+
+
+
 
 
 
