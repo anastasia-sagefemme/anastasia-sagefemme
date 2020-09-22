@@ -25,13 +25,6 @@ h1 {
     font-variant: small-caps;
 }
 
-h2 {
-    font-family: "Rouge";
-    color: var(--primarycolor);
-    font-size: 50px;
-    margin-bottom: 20px;
-}
-
 h2 span {
     color: var(--basic-color)
 }
@@ -41,10 +34,7 @@ h3 {
     font-size: 35px;
 }
 
-p, li {
-    font-family: "Mate";
-    color: var(--basic-color);
-}
+
 
 .identité {
     font-family: "Rouge";
@@ -133,4 +123,41 @@ p, li {
     box-shadow: 0px 0px 20px grey;
     padding: 15px 15px;
     margin: 10px 10px;
+}
+
+.body h2 {
+    font-family: "Rouge";
+    color: var(--primarycolor);
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.body p, li {
+    font-family: "Mate";
+    color: var(--basic-color);
+}
+
+.footer {
+    background-color: var(--primarycolor);
+    color: var(--secondarycolor);
+    margin-top: 50px;
+    padding: 15px 15px;
+}
+
+.footer h2 {
+    font-family: "Rouge";
+    color: var(--secondarycolor;)
+}
+
+.footer p {
+    font-family: "mate";
+    color: var(--basic-color);
+}
+
+.footer img {
+    margin-bottom: 15px;
+}
+
+.samu {
+    text-align: center;
 }
