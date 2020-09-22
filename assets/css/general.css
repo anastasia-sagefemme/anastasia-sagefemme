@@ -25,8 +25,15 @@ h1 {
     font-variant: small-caps;
 }
 
+h2 {
+    font-family: "Rouge";
+    color: var(--primarycolor);
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
 .identité {
-    font-family: "Greatvibes";
+    font-family: "Rouge";
     color: var(--secondarycolor);
     text-shadow: -1px 0 var(--primarycolor), 
                 0 1px var(--primarycolor),
@@ -36,7 +43,7 @@ h1 {
 }
 
 .profession {
-    font-family: "Greatvibes";
+    font-family: "Rouge";
     color: var(--primarycolor);
     text-shadow: -1px 0 var(--secondarycolor), 
                 0 1px var(--secondarycolor),
@@ -77,10 +84,9 @@ h1 {
     margin-bottom: 10px;
 }
 
-
-
-
-
-
-
-    
+.index_presentation {
+    font-family: "Mate";
+    box-shadow: 0px 0px 20px grey;
+    padding: 40px 0px;
+    margin: 0px 180px;
+}
