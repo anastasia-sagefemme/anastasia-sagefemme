@@ -137,7 +137,7 @@ h3 {
     color: var(--basic-color);
 }
 
-.footer {
+footer {
     background-color: var(--primarycolor);
     color: var(--secondarycolor);
     margin-top: 50px;
