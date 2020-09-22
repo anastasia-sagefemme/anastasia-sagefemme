@@ -11,13 +11,7 @@
         text-decoration: none;
         font-size: 20px;
     }  
-    .rdv {
-        margin-top: 30px;
-        padding: 10px 10px;
-        background-color: transparent;
-        text-align: center;
-    }
-    nav a {
+        nav a {
         font-size: 16px;
     }
     nav {
@@ -28,7 +22,15 @@
     h1, .intro {
         text-align: center;
     }
-
+    .profession, .identité {
+        font-size: 22px;
+    }
+    .rdv {
+        margin-top: 30px;
+        padding: 10px 10px;
+        background-color: transparent;
+        text-align: center;
+    }
 }
 
 /*laptop*/
@@ -118,5 +120,9 @@
     }
     .rdv {
         margin-top: 70px;
+    }
+    .index_presentation {
+        padding: 40px 0px;
+        margin: 0px 180px;
     }
 }
