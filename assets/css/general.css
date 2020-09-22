@@ -90,3 +90,11 @@ h2 {
     padding: 40px 0px;
     margin: 0px 180px;
 }
+
+.underpic {
+    background-color: var(--primarycolor);
+    color: var(--secondarycolor);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 1px;
+}
