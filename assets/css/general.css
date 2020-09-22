@@ -32,6 +32,15 @@ h2 {
     margin-bottom: 20px;
 }
 
+h2 span {
+    color: var(--basic-color)
+}
+
+h3 {
+    font-family: "GreatVibes";
+    font-size: 35px;
+}
+
 .identité {
     font-family: "Rouge";
     color: var(--secondarycolor);
@@ -99,3 +108,15 @@ h2 {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 1px;
+}
+
+.titre_articles {
+    margin-top: 20px;
+}
+
+.latest_article {
+    font-family: "Mate";
+    box-shadow: 0px 0px 20px grey;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
