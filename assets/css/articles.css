@@ -1,0 +1,6 @@
+h2 {
+    font-family: "Rouge";
+    color: var(--primarycolor);
+    font-size: 50px;
+    margin-bottom: 20px;
+}
