@@ -5,10 +5,7 @@
     header {
         height: 346px;
     }
-    a, a:hover, .intro {
-        font-family: "Mate";
-        color: var(--secondarycolor);
-        text-decoration: none;
+    header a, header a:hover, .intro {
         font-size: 20px;
     }  
         nav a {
