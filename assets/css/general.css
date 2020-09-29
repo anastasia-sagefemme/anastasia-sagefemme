@@ -12,12 +12,19 @@ header {
     padding-top: 30px;
 }
 
-a, a:hover, .intro {
+header a, header a:hover, .intro {
     font-family: "Mate";
     color: var(--secondarycolor);
     text-decoration: none;
     font-size: 20px;
 }  
+
+section a, section a:hover {
+    font-family: "Mate";
+    color: var(--primarycolor);
+    text-decoration: none;
+    font-size: 18px;
+}
 
 h1 {
     font-family: "Mate";
