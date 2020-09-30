@@ -61,7 +61,7 @@ article strong {
                 1px 0 var(--primarycolor), 
                 0 -1px var(--primarycolor);
     padding-top: 12%;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .profession {
@@ -71,7 +71,7 @@ article strong {
                 0 1px var(--secondarycolor),
                 1px 0 var(--secondarycolor), 
                 0 -1px var(--secondarycolor);
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .profession, .identité {
