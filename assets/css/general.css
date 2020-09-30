@@ -91,7 +91,7 @@ article strong {
     text-align: center;
 }
 
-.mobile a, .mobile a:hover {
+.mobile .nav_mobile a, .mobile .nav_mobile a:hover {
     font-family: "Mate";
     color: var(--secondarycolor);
     text-decoration: none;
