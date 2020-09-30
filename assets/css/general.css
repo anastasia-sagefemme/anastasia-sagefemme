@@ -47,6 +47,13 @@ article img {
     text-align: center;
 }
 
+strong {
+    font-family: "Mate";
+    color: var(--primarycolor);
+    font-size: 20px;
+    text-align: center;
+}
+
 .identité {
     font-family: "Rouge";
     color: var(--secondarycolor);
