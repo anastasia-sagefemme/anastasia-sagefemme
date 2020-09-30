@@ -17,7 +17,7 @@ header a, header a:hover, .intro {
     font-family: "Mate";
     color: var(--secondarycolor);
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
 }  
 
 section a, section a:hover {
