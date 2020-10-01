@@ -5,32 +5,36 @@
     header {
         height: 346px;
     }
-    header a, header a:hover, .intro {
+    header a, .intro {
         font-size: 20px;
     }  
-        nav a {
+    nav a {
         font-size: 16px;
     }
     nav {
         padding-top: 5%;
-        padding-left: 50px;
+        padding-left: 5px;
         text-align: right;
     }
     h1, .intro {
         text-align: center;
+        padding-top: 10px;;
     }
     .profession, .identité {
-        font-size: 24px;
+        font-size: 28px;
+        margin-left: 5px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
     }
     .rdv {
-        margin-top: 30px;
+        margin-top: 10px;
         padding: 10px 10px;
         background-color: transparent;
         text-align: center;
     }
     .pict_allaitement, .pict_prepa {
         display: none !important;
-    }
 }
 
 /*laptop*/
