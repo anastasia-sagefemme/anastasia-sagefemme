@@ -1,0 +1,18 @@
+section {
+	animation: apparition_txt 1s;
+}
+
+@keyframes apparition_txt {
+    0% {
+        filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+  
