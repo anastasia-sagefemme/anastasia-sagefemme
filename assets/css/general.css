@@ -37,7 +37,7 @@ h2 span {
     color: var(--basic-color)
 }
 
-h2 a, h2 a:hover {
+section h2 a, section h2 a:hover {
     font-family: "Rouge";
     color: var(--primarycolor);
     font-size: 50px;
@@ -215,19 +215,3 @@ footer {
     text-align: center;
 }
 
-section p, section li {
-	animation: apparition_txt 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-}
-
-@keyframes apparition_txt {
-    0% {
-        filter: blur(12px);
-        filter: blur(12px);
-        opacity: 0;
-    }
-    100% {
-        filter: blur(0px);
-        filter: blur(0px);
-        opacity: 1;
-    }
-}
