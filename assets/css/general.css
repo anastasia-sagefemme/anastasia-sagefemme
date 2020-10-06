@@ -96,6 +96,13 @@ article strong {
     font-size: 20px;
 }
 
+footer {
+    background-color: var(--primarycolor);
+    color: var(--secondarycolor);
+    margin-top: 50px;
+    padding: 15px 15px;
+}
+
 .identité {
     font-family: "Rouge";
     color: var(--secondarycolor);
@@ -143,7 +150,7 @@ article strong {
 
 .nav_mobile {
     background-color: var(--primarycolor);
-    padding: 0px 0px;
+    padding-right: 10px;
 }
 
 .intro2 {
@@ -190,13 +197,6 @@ article strong {
     color: var(--basic-color);
 }
 
-footer {
-    background-color: var(--primarycolor);
-    color: var(--secondarycolor);
-    margin-top: 50px;
-    padding: 15px 15px;
-}
-
 .footer h2 {
     font-family: "Rouge";
     color: var(--secondarycolor);
@@ -214,4 +214,3 @@ footer {
 .samu {
     text-align: center;
 }
-
