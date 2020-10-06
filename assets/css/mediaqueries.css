@@ -1,36 +1,38 @@
-
-
 /*tablette*/
 @media (min-width: 768px) {
     header {
         height: 346px;
     }
-    a, a:hover, .intro {
-        font-family: "Mate";
-        color: var(--secondarycolor);
-        text-decoration: none;
+    header a, .intro {
         font-size: 20px;
     }  
-        nav a {
+    nav a {
         font-size: 16px;
     }
     nav {
         padding-top: 5%;
-        padding-left: 50px;
+        padding-left: 5px;
         text-align: right;
     }
     h1, .intro {
         text-align: center;
+        padding-top: 10px;;
     }
     .profession, .identité {
-        font-size: 22px;
+        font-size: 28px;
+        margin-left: 5px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
     }
     .rdv {
-        margin-top: 30px;
+        margin-top: 10px;
         padding: 10px 10px;
         background-color: transparent;
         text-align: center;
     }
+    .pict_allaitement, .pict_prepa {
+        display: none !important;
 }
 
 /*laptop*/
@@ -39,7 +41,7 @@
         height: 461px;
     }
     nav {
-        padding-top: 5%;
+        padding-top: 30px;
         padding-left: 100px;
     }
     nav a {
@@ -52,7 +54,7 @@
     h1 {
         text-align: left;
         padding-left: 120px;
-        padding-top: 20px;;
+        padding-top: 50px;;
     }
     .rdv {
         margin-top: 50px;
@@ -63,10 +65,10 @@
         color: var(--secondarycolor)
     }
     .identité {
-        padding-top: 10%;
+        padding-top: 0px;;
     }
     .identité, .profession {
-        font-size: 25px;
+        font-size: 35px;
         text-align: left;
         padding-left: 10px;
     }
@@ -77,6 +79,12 @@
     .titre_articles {
         margin-top: 100px;
         padding-left: 200px;
+    }
+    .footer {
+        padding-left: 50px;
+    }
+    .pict_allaitement, .pict_prepa {
+        display: block !important;
     }
 }
 
@@ -115,10 +123,10 @@
         text-align: left;
     }
     .identité {
-        padding-top: 5%;
+        padding-top: 0px;
     }
     .identité, .profession {
-        font-size: 30px;
+        font-size: 43px;
         text-align: left;
         padding-left: 0px;
     }
@@ -128,5 +136,8 @@
     .index_presentation, .latest_article {
         padding: 40px 0px;
         margin: 30px 180px;
+    }
+    .boite {
+        margin: 30px 50px;
     }
 }

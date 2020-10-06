@@ -10,6 +10,7 @@
 
         <link rel="stylesheet" href="assets/css/bootstrap.css">
         <link rel="stylesheet" href="assets/css/general.css">
+        <link rel="stylesheet" href="assets/css/animations.css">
         <link rel="stylesheet" href="assets/css/fonts.css">
         <link rel="stylesheet" href="assets/css/mediaqueries.css">
         
@@ -18,8 +19,10 @@
     <body>
         <header class="container-fluid">
             <div class="row entete">
-                <div class="col-4 col-md-2  col-xl-1"><a href="index.html"><img src="assets/pics/logo.png" height=116 width=113 alt="logo du site, femme enceinte stylisée" class="logo" /></a></div>
-                <div class="col-8 col-md-3  col-xl-3">
+                <div class="col-3 col-md-2 col-xl-1 logo">
+                    <a href="index.html"><img src="assets/pics/logo.png" height=116 width=113 alt="logo du site, femme enceinte stylisée" class="img-fluid logo" /></a>
+                </div>
+                <div class="col-9 col-md-3 col-xl-3">
                     <a href="index.html">
                         <div class="row identité">Anastasia Quiquempois</div>
                         <div class="row profession">Sage-Femme</div>
@@ -32,8 +35,8 @@
                     <div class="col d-none d-md-block col-md-3 col-xl-4">
                         <a href="aboutme.html">Présentation</a>
                     </div>
-                    <div class="col d-none d-md-block col-md-2 col-xl-2">
-                        <a href="consultations.html">Tarifs</a>
+                    <div class="col d-none d-md-block col-md-3 col-xl-2">
+                        <a href="consultations.html">Honoraires</a>
                     </div>
                     <div class="col d-none d-md-block col-md-2 col-xl-3">
                         <a href="articles.html">Articles</a>
@@ -71,19 +74,19 @@
                     <div class="col-3 d-md-none">
                         <a href="aboutme.html">Présentation</a>
                     </div>
-                    <div class="col-2 d-md-none">
-                        <a href="consultations.html">Tarifs</a>
+                    <div class="col-3 d-md-none">
+                        <a href="consultations.html">Honoraires</a>
                     </div>
                     <div class="col-2 d-md-none">
                         <a href="articles.html">Articles</a>
                     </div>
-                    <div class="col-2 d-md-none">
-                        <a href="https://www.doctolib.fr/sage-femme/pantin/anastasia-quiquempois"><img src="assets/pics/logo_doctolib.png" height=30 width=30 alt="logo vers la page doctolib"></a>
+                    <div class="col-1 d-md-none">
+                        <a href="https://www.doctolib.fr/sage-femme/pantin/anastasia-quiquempois"><img src="assets/pics/logo_doctolib_mobile.png" height=30 width=20 alt="logo vers la page doctolib"></a>
                     </div>
                 </div>
             </nav> 
 
-            <div class="row">
+            <div class="row suivi">
                 <div class="col-12 d-md-none">
                     <h1>Votre suivi personnalisé</h1>
                 </div>
@@ -93,18 +96,10 @@
                     <span>avant et après accouchement</span>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-6 d-md-none rdv align-self-center">
-                    <a href="https://www.doctolib.fr/sage-femme/pantin/anastasia-quiquempois">Prenez rendez-vous !</a>
-                </div>
-            </div>
         </section>
 /
 
-        <section class="container-fluid"> <!--presentation rapide-->
-            <div class="row justify-content-center">
-                <h2>Présentation</h2>
-            </div>
+        <section class="container-fluid body"> <!--presentation rapide-->
             <div class="row index_presentation justify-content-center">
                 <div class="d-none d-xl-block col-xl-2 pict_allaitement align-self-end">
                     <img src="assets/pics/pic6.jpg" height=250 width=250 alt="allaitement maternel" class="img-fluid" />
@@ -120,7 +115,7 @@
                 </div>
                 <div class="col-12 col-xl-6 index_text align-self-center">
                     <p>La sage-femme est une spécialiste de la grossesse. Elle surveille le travail et pratique l'accouchement eutocique (l'accouchement normal). Elle dispense aussi les soins nécessaires à la mère et au nouveau-né et conseille les femmes sur l'allaitement et la contraception.
-                    Actuellement mon emploi du temps ne me permet pas de prendre de nouvelles patientes pour la rééducation du périnée. Je ne suis que les femmes qui ont réalisés leur suivi de grossesse au cabinet. </p>
+                    Actuellement mon emploi du temps ne me permet pas de prendre de nouvelles patientes pour la rééducation du périnée. Je ne suis que les femmes qui ont réalisés leur suivi de grossesse au cabinet.</p>
                     <ul>
                         <li>Pour les cours de préparation je vous propose des séances en petits groupes de 2 à 3 patientes, les futurs papas sont les bienvenus !</li>
                         <li>Pour un suivi plus personnalisé vous pouvez choisir l'option des cours en individuel.</li>
@@ -128,13 +123,13 @@
                     <p>Je suis formée à la méthode Bonapace qui vous permettra d’accroître votre confiance en vous dans la gestion de votre accouchement. </p>
                 </div>
 
-                <div class="col-5 d-xl-none"> <!--illustrations version mobile-->
+                <div class="d-none d-md-block col-md-3 d-xl-none"> <!--illustrations version mobile-->
                     <img src="assets/pics/pic6.jpg" height=250 width=250 alt="allaitement maternel" class="img-fluid" />
                     <div class="row-12 underpic">
                         <p>Conseils à l'allaitement</p>
                     </div>
                 </div>
-                <div class="col-5 d-xl-none">
+                <div class="d-none d-md-block col-md-3 d-xl-none">
                     <img src="assets/pics/pic5.jpg" height=250 width=250 alt="couple tenant une paire de chaussures pour bébé" class="img-fluid" />
                     <div class="row-12 underpic">
                         <p>Préparation à l'accouchement</p>
@@ -142,81 +137,114 @@
                 </div>
             </div>
         </section>
-       
-        <section class="container-fluid"><!--dernier article publié, !! image d'illustration à mettre en background de la section !! -->
+
+        <section class="container-fluid body"> <!--listing des examens et consultations-->
             <div class="row">
-                <h2>Titre du dernier article</h2>
+                <div class="col-12">
+                    <h2 class="titre_articles"><a href="consultations.html"><span>Consultations</span> et Ateliers</a></h2>
+                </div>
             </div>
+
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-md-5 col-xl-4 boite">
+                <h3>Consultations</h3>
+                    <ul>
+                        <li>Consultation</li>
+                        <li>Rééducation du périnée</li>
+                        <li>Cours de préparation en individuel</li>
+                        <li>Consultation d'allaitement</li>
+                        <li>Visite à domicile</li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-5 col-xl-4 boite">
+                <h3>Les ateliers</h3>
+                    <ul>
+                        <li>Atelier de portage</li>
+                        <li>Atelier de massage pour bébés</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+       
+        <section class="container-fluid body"><!--dernier article publié, !! image d'illustration à mettre en background de la section !! -->
             <div class="row">
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less
+                <div class="col-12">
+                    <h2 class="titre_articles"><a href="articles.html"><span>Derniers</span> Articles</a></h2>
+                </div>
+            </div>
+
+            <div class="row justify-content-center latest_article">     
+                <div class="col-10 col-md-6">
+                    <a href="assets/articles/plantes_toxiques.html"><h3>Les plantes dangeureuses pour mon enfant</h3></a>
+                    <p>En cas d'ingestion, contactez gratuitement (hors coût de l'appel) votre centre antipoison au 01 40 05 48 48 (Paris). Un médecin vous répondra 7 jours sur 7, 24 heures sur 24. 
+                    Il appotera une aide téléphonique en cas d'intoxication : diagnostic, prise en charge et traitement des intoxications.<br>
+                    Venez découvrir dans l'article les plantes pouvant se révéler dangereuses pour votre enfant en cas d'ingestion.<br>
+                    Source : <a href="http://www.centres-antipoison.net/">Association des Centres Antipoisons et de Toxicovigilance</a>
+                    </p>
+                </div>
+                <div class="d-none d-md-block col-md-4 align-self-center"> <!-- image article-->
+                    <img src="assets/pics/article1/pic_index.png" height=250 width=250 alt="fleurs toxiques" class="img-fluid" />
+                </div>
+                <div class="col-12 d-md-none pic_mobile"><!-- image article version mobile-->
+                    <img src="assets/pics/article1/pic_indexmobile.png" height=135 width=300 alt="fleurs toxiques" class="img-fluid" />
+                </div>
+            </div>
+        
+
+            <div class="row justify-content-center latest_article">
+                <div class="d-none d-md-block col-md-4 align-self-center">
+                    <img src="assets/pics/pic7.jpg" height=250 width=250 alt="pieds de bébé" class="img-fluid" /> <!-- image article-->
+                </div>
+                <div class="col-10 col-md-6">
+                    <h3>Titre de l'avant-dernier article</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less
                     normal distribution of letters, as opposed to using 'Content here, content here', 
-                    making it look likeIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                </p>
+                    making it look like. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                    </p>
+                </div>
+                <div class="col-12 d-md-none pic_mobile"> <!-- image article version mobile-->
+                    <img src="assets/pics/pic7mobile.jpg" height=135 width=300 alt="pieds de bébé" class="img-fluid" />
+                </div>
             </div>
 
         </section>
         
-        <section class="container"> <!--listing des examens et consultations-->
-            <div class="row">
-                <div class="col-12">
-                    <h2>Consultations et Ateliers</h2>
-                </div>
-                <div class="row">
-                    <div class="col-6">
-                    <h3>Consultations</h3>
-                        <ul>
-                            <li>Consultation</li>
-                            <li>Rééducation du périnée</li>
-                            <li>Cours de préparation en individuel</li>
-                            <li>Consultation d'allaitement</li>
-                            <li>Visite à domicile</li>
-                        </ul>
-                    </div>
-                    <div class="col-6">
-                    <h3>Les ateliers</h3>
-                        <ul>
-                            <li>Atelier de portage</li>
-                            <li>Atelier de massage pour bébés</li>
-                        </ul>
-                    </div>
+        <footer class="container-fluid footer">  <!-- lien doctolib  // adresse // secretariat //transports  -->
+            <div class="row justify-content-center"> <!--lien doctolib-->
+                <div class="col-1">
+                    <a href="https://www.doctolib.fr/sage-femme/pantin/anastasia-quiquempois"><img src="assets/pics/logo_doctolib_pdp.png" height=40 width=40 alt="logo vers la page doctolib"></a>
                 </div>
             </div>
-
-        </section>
-
-
-        <footer class="container-fluid">  <!-- lien doctolib  // adresse // secretariat //transports  -->
-            <div class="row"> <!--lien doctolib-->
-                <div class="col-12">
-                    <a href="https://www.doctolib.fr/sage-femme/pantin/anastasia-quiquempois"><img src="assets/pics/logo_doctolib.png" height=60 width=60 alt="logo vers la page doctolib"></a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-4"><!--adresse du cabinet-->
-                    <h2>COORDONNEES</h2>
+            <div class="row justify-content-center">
+                <div class="col-6 col-md-4 col-xl-3"><!--adresse du cabinet-->
+                    <h2>Coordonnées</h2>
                     <p>3 Avenue du 8 Mai 1945,<br>
                         93500 Pantin
                     </p>
                     <p>07.66.22.25.62</p>
                 </div>
-                <div class="col-4"><!--horaires d'ouverture du secrétariat-->
-                    <h2>HORAIRES</h2>
+                <div class="col-6 col-md-4 col-xl-3"><!--horaires d'ouverture du secrétariat-->
+                    <h2>Horaires</h2>
                     <p>Du lundi au vendredi <br>
                     de 9h à 13h <br>
                     et<br>
                      de 14h à 19h</p>
                 </div>
-                <div class="col-4"><!--transports et accès-->
-                    <h2>TRANSPORTS </h2>
+                <div class="col-6 col-md-4 col-xl-3"><!--transports et accès-->
+                    <h2>Transports </h2>
                     <p>Métro - Église (ligne 5)<br>
                        RER - Pantin (ligne E)<br>
                        RER - Gare de Pantin (ligne E)
                     </p>
-                    <h2>PARKING</h2>
+                    <h2>Parking</h2>
                     <p>63 Rue Gutenberg, Pantin</p>
                 </div>
             </div>
-            <div class="row">EN CAS D'URGENCE, CONTACTEZ LES 15 (SAMU)</div>
+            <div class="row justify-content-center">
+                <div class="col-11 samu">
+                    <p>EN CAS D'URGENCE, CONTACTEZ LE 15</p>
+                </div>
+            </div>
         </footer>
     </body>
 

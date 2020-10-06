@@ -7,17 +7,25 @@
 header {
     background-image: url(../pics/banniere2.jpg);
     background-attachment: fixed;
+    background-size: contain;
     background-repeat: no-repeat;
-    height: 220px;
+    height: 150px;
     padding-top: 30px;
 }
 
-a, a:hover, .intro {
+header a, header a:hover, .intro {
     font-family: "Mate";
     color: var(--secondarycolor);
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
 }  
+
+section a, section a:hover {
+    font-family: "Mate";
+    color: var(--primarycolor);
+    text-decoration: none;
+    font-size: 18px;
+}
 
 h1 {
     font-family: "Mate";
@@ -25,20 +33,74 @@ h1 {
     font-variant: small-caps;
 }
 
-h2 {
+h2 span {
+    color: var(--basic-color)
+}
+
+section h2 a, section h2 a:hover, section h2, article h2 {
     font-family: "Rouge";
     color: var(--primarycolor);
     font-size: 50px;
     margin-bottom: 20px;
 }
 
-h2 span {
-    color: var(--basic-color)
+a {
+    position: relative;
 }
+
+a::after {
+    content:'';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%) scaleX(0);
+    transform-origin: 50% 50%;
+    width: 100%;
+    height: 1px;
+    background-color: var(--secondarycolor);
+    transition: transform 250ms;
+}
+
+a:hover::after {
+    transform: translateX(-50%) scaleX(1);
+}
+
+h2 a::after {
+    content:'';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%) scaleX(0);
+    transform-origin: 50% 50%;
+    width: 100%;
+    height: 1px;
+    background-color:var(--basic-color);
+    transition: transform 400ms;
+}
+
+
 
 h3 {
     font-family: "GreatVibes";
-    font-size: 30px;
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+article img {
+    text-align: center;
+}
+
+article strong {
+    font-family: "Mate";
+    color: var(--primarycolor);
+    font-size: 20px;
+}
+
+footer {
+    background-color: var(--primarycolor);
+    color: var(--secondarycolor);
+    margin-top: 50px;
+    padding: 15px 15px;
 }
 
 .identité {
@@ -48,7 +110,7 @@ h3 {
                 0 1px var(--primarycolor),
                 1px 0 var(--primarycolor), 
                 0 -1px var(--primarycolor);
-    padding-top: 12%;
+    padding-top: 10px;
     font-size: 30px;
 }
 
@@ -79,16 +141,16 @@ h3 {
     text-align: center;
 }
 
-.mobile a, .mobile a:hover {
+.mobile .nav_mobile a, .mobile .nav_mobile a:hover {
     font-family: "Mate";
     color: var(--secondarycolor);
     text-decoration: none;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .nav_mobile {
     background-color: var(--primarycolor);
-    padding: 0px 0px;
+    padding-right: 10px;
 }
 
 .intro2 {
@@ -115,8 +177,40 @@ h3 {
 }
 
 .latest_article {
-    font-family: "Mate";
     box-shadow: 0px 0px 20px grey;
     padding: 10px 10px;
     margin: 10px 10px;
+}
+
+.pic_mobile {
+    text-align: center;
+}
+
+.boite {
+    box-shadow: 0px 0px 20px grey;
+    padding: 15px 15px;
+    margin: 10px 10px;
+}
+
+.body p, li {
+    font-family: "Mate";
+    color: var(--basic-color);
+}
+
+.footer h2 {
+    font-family: "Rouge";
+    color: var(--secondarycolor);
+}
+
+.footer p {
+    font-family: "mate";
+    color: var(--basic-color);
+}
+
+.footer img {
+    margin-bottom: 15px;
+}
+
+.samu {
+    text-align: center;
 }
