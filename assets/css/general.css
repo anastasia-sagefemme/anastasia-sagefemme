@@ -48,7 +48,7 @@ a {
     position: relative;
 }
 
-a::after {
+nav a::after {
     content:'';
     position: absolute;
     left: 50%;
@@ -61,11 +61,11 @@ a::after {
     transition: transform 250ms;
 }
 
-a:hover::after {
+nav a:hover::after, section h2 a:hover::after, section h3 a:hover::after {
     transform: translateX(-50%) scaleX(1);
 }
 
-h2 a::after {
+section h2 a::after, section h3 a::after {
     content:'';
     position: absolute;
     left: 50%;
@@ -80,7 +80,7 @@ h2 a::after {
 
 
 
-h3 {
+h3 a, h3 a:hover {
     font-family: "GreatVibes";
     font-size: 35px;
     margin-top: 20px;
