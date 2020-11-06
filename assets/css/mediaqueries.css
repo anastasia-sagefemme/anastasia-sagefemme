@@ -33,6 +33,9 @@
     }
     .pict_allaitement, .pict_prepa {
         display: none !important;
+    }
+    div .slider {
+        max-height: 500px;
 }
 
 /*laptop*/
