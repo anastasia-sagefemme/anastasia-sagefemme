@@ -16,29 +16,35 @@ section, article {
 }
 
 div .slider {
-    width: 95%;
+    width: 100%;
     max-width: 400px;
+    height: 100%;
+    max-height: 500px;;
     overflow: hidden;
     background-color: var(--secondarycolor);
 }
 
 div .slider figure {
     position: relative;
-    width: 400%;
+    width: 900%;
     margin: 0;
     padding: 0;
-    font-size: 0;
-    animation: 10s slidy infinite;
+    animation: 35s slidy infinite;
 }
 
 div .slider figure img {
-    width: 25%;
+    width: 11%;
     height: auto;
 }
 
 @keyframes slidy {
-    0%, 20%, 100%	{ left: 0 }
-	25%, 45%		{ left: -100% }
-	50%, 70%		{ left: -200% }
-	75%, 95%		{ left: -300% }
+    0%, 8%, 100%	{ left: 0 }
+	12%, 20%	    { left: -100% }
+	24%, 32%		{ left: -200% }
+    36%, 46%		{ left: -300% }
+    50%, 58%		{ left: -400% }
+    62%, 70%		{ left: -500% }
+    74%, 82%		{ left: -600% }
+    86%, 90%        { left: -700% }
+    92%, 98%        { left: -800% }
   }
