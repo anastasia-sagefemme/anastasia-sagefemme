@@ -1,0 +1,48 @@
+section, article {
+	animation: apparition_txt 1s;
+}
+
+@keyframes apparition_txt {
+    0% {
+        filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+div .slider {
+    width: 100%;
+    max-width: 400px;
+    overflow: hidden;
+    background-color: var(--secondarycolor);
+}
+
+div .slider figure {
+    position: relative;
+    width: 900%;
+    margin: 0;
+    padding: 0;
+    animation: 35s slidy infinite;
+}
+
+div .slider figure img {
+    width: 11%;
+    height: auto;
+}
+
+@keyframes slidy {
+    0%, 8%, 100%	{ left: 0 }
+	12%, 20%	    { left: -100% }
+	24%, 32%		{ left: -200% }
+    36%, 46%		{ left: -300% }
+    50%, 58%		{ left: -400% }
+    62%, 70%		{ left: -500% }
+    74%, 82%		{ left: -600% }
+    86%, 90%        { left: -700% }
+    92%, 98%        { left: -800% }
+  }
